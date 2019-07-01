@@ -1,0 +1,28 @@
+{
+  "name": "@leismore/jsonify_function",
+  "version": "1.0.0",
+  "description": "Convert a JavaScript function into stringified JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leismore/jsonify_function.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "JavaScript",
+    "CouchDB",
+    "JSON",
+    "Stringify",
+    "JavaScript",
+    "Function"
+  ],
+  "author": "Kyle Chine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leismore/jsonify_function/issues"
+  },
+  "homepage": "https://github.com/leismore/jsonify_function#readme"
+}
