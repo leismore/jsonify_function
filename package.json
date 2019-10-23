@@ -1,8 +1,9 @@
 {
   "name": "@leismore/jsonify_function",
-  "version": "1.0.0",
-  "description": "Convert a JavaScript function into stringified JSON.",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Convert a JavaScript function into a stringified JSON string.",
+  "main":  "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,11 +14,11 @@
   "keywords": [
     "NodeJS",
     "JavaScript",
+    "TypeScript"
     "CouchDB",
     "JSON",
     "Stringify",
-    "JavaScript",
-    "Function"
+    "JavaScript Function"
   ],
   "author": "Kyle Chine",
   "license": "MIT",
