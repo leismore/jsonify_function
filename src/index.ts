@@ -1,16 +1,8 @@
 /**
- * Convert a JavaScript function into stringified JSON.
+ * Convert a JavaScript function into a stringified JSON string.
  */
 
-'use strict';
+function jsonify_function(func:Function)
+  { return JSON.stringify( {jsonified: func.toString()} ); }
 
-module.exports = (func) => {
-
-  if (typeof func !== 'function')
-  {
-    throw new Error('not function');
-  }
-
-  return JSON.stringify( {jsonified: func.toString()} );
-
-};
+export {jsonify_function};
