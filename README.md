@@ -2,6 +2,10 @@
 
 Convert a JavaScript function into a stringified JSON string.
 
+# Donation
+
+Buy me a coffee via [![PayPal Donation](https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=SPPJPYRY4D6WC&item_name=Give+people+an+option+to+support+my+open+source+software.&currency_code=AUD&source=url)
+
 # Motivation
 
 [CouchDB](http://couchdb.apache.org) design document architecture requires that all database handlers (JavaScript functions) are stored in a JSON structure. Functions in the JSON structure must be presented as escaped stringified strings. Similar as this:
