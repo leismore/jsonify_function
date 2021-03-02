@@ -22,12 +22,14 @@ Buy me a coffee via [![PayPal Donation](https://www.paypalobjects.com/en_AU/i/bt
 
 `npm install @leismore/jsonify_function`
 
+# Test
+
+`npm test`
+
 # Usage
 
 ```typescript
 import {jsonify_function} from '@leismore/jsonify_function';
-// Or
-const jsonify_function = require('@leismore/jsonify_function').jsonify_function;
 
 // Define your function here
 function test()
@@ -41,7 +43,7 @@ console.log( jsonify_function(test) );
 
 # License
 
-MIT License
+GNU Affero General Public License v3.0
 
 # Authors
 
