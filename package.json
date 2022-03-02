@@ -1,6 +1,6 @@
 {
   "name": "@leismore/jsonify_function",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Convert a JavaScript function into a stringified JSON string.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
